@@ -3,22 +3,19 @@ package com.example.demo;
 import app.repository.BookRepository;
 import app.repository.CollectionRepository;
 import app.service.CollectionService;
-import app.web.book.Book;
-import app.web.collection.Collection;
-import app.web.collection.CollectionController;
+import app.model.Book;
+import app.model.Collection;
+import app.controller.CollectionController;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Sort;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
 import java.util.*;
-
-import static org.mockito.Mockito.when;
 
 public class CollectionTests extends DemoApplicationTests {
 

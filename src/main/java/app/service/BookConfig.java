@@ -1,9 +1,9 @@
 package app.service;
 
 import app.repository.CollectionRepository;
-import app.web.book.Book;
+import app.model.Book;
 import app.repository.BookRepository;
-import app.web.collection.Collection;
+import app.model.Collection;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

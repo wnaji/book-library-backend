@@ -9,8 +9,8 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 import app.repository.BookRepository;
 import app.service.BookService;
-import app.web.book.Book;
-import app.web.book.BookController;
+import app.model.Book;
+import app.controller.BookController;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.Assert;

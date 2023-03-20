@@ -1,6 +1,6 @@
-package app.web.collection;
+package app.model;
 
-import app.web.book.Book;
+import app.model.Book;
 import jakarta.persistence.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;

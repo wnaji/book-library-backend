@@ -1,7 +1,8 @@
-package app.web.book;
+package app.controller;
 
+import app.model.Book;
 import app.service.BookService;
-import app.web.TrieStructure;
+import app.service.TrieStructure;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

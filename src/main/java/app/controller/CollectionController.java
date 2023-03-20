@@ -1,15 +1,12 @@
-package app.web.collection;
+package app.controller;
 
+import app.model.Collection;
 import app.service.CollectionService;
-import app.web.book.Book;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import app.web.TrieStructure;
+import app.service.TrieStructure;
 
-import java.util.Collections;
 import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 @RestController

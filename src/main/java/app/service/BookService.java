@@ -1,9 +1,9 @@
 package app.service;
 
-import app.web.book.Book;
+import app.model.Book;
 import app.repository.BookRepository;
-import app.web.exceptions.AlreadyExistsException;
-import app.web.exceptions.NotFoundException;
+import app.controller.exceptions.AlreadyExistsException;
+import app.controller.exceptions.NotFoundException;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

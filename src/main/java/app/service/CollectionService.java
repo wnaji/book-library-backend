@@ -2,9 +2,9 @@ package app.service;
 
 import app.repository.BookRepository;
 import app.repository.CollectionRepository;
-import app.web.book.Book;
-import app.web.collection.Collection;
-import app.web.exceptions.NotFoundException;
+import app.model.Book;
+import app.model.Collection;
+import app.controller.exceptions.NotFoundException;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
